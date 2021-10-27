@@ -1,0 +1,198 @@
+# Site
+repository: www.github.com/ozayn
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Azin Faghihi
+title: Data Scientist
+email: azin.faghihi@gmail.com
+website: www.github.com/ozayn
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: 
+github_username:  ozayn
+# stackoverflow_username: 
+# dribbble_username: 
+# facebook_username: 
+# flickr_username: 
+instagram_username: ozayn
+linkedin_username: azin-faghihi
+# xing_username: 
+# pinterest_username: 
+youtube_username: 
+# googleplus_username: 
+# orcid_username: 
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+- title: medium
+  icon: fab fa-medium
+  url: https://medium.com/@ozayn
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpeg
+about_content: | # this will include new lines to allow paragraphs <mark>Eating Pizza</mark>
+
+  I am a Data Scientist who is passionate about data analytics especially when it relates to human behaviour data in the context of health, social networks, and languages. I bring experience and curiosity from my background in Mechanical Engineering and Software Engineering.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Graphs & Networks Exploration
+        # link: ozayn/Capstone_project_GA
+        # link_text: Project Website
+        additional_links:
+          - title: ozayn/Capstone_project_GA
+            icon: fab fa-github
+            url: github.com/ozayn/Capstone_project_GA
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Data From "The International Consortium of Investigative Journalists"
+          Offshore Leaks Database
+        description: | # this will include new lines to allow paragraphs
+          ![networkx on map](./images/project1/03_link_secretary_of_wcon_loglog.png)
+          ![Degree Distribution](./images/project1/degree_distribution_log_log_linear.png)
+          In this project I got a chance to explore the real network of Offshore Leaks. I observed that the data followed the Preferential Attachment Model when I studied the in-degree & out-degrees.
+
+      - layout: top-middle
+        title: Subreddit Classification - NLP
+        # link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          - title:  ozayn/subreddit_classification_nlp
+            icon: fab fa-github
+            url: github.com/ozayn/subreddit_classification_nlp
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          Data was gathered from Meditation and Yoga Subreddits
+        description: | # this will include new lines to allow paragraphs
+          ![Word Count Distribution](./images/project2/character_word_count_dist_title_content.png)
+          ![ngrams](./images/project2/top_occurring_ngram_1_2.png)
+
+          In this project, I used natural language processing to classify texts extracted from Yoga and Meditation subreddits.
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: General Assembly
+        # link: 
+        # link_text: 
+        sub_title: Data Science Immersive Bootcamp
+        caption: Summer 2021
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          - Utilized Python for data analysis, data visualization, and machine learning modeling.
+
+      - layout: left
+        title: Non-Profit Tech Company
+        # link: 
+        # link_text: 
+        sub_title: Software Engineer
+        caption: 2015-2021
+        # quote: >
+        description: | # this will include new lines to allow paragraphs
+          - Deployed web services on Amazon AWS (RDS, EC2, S3).
+          - Designed an end-to-end automated content management service including:
+            - Data collection by implementing platform-specific web scrapers from multiple web sources and data types.
+            - Design and implementation of an internal search engine for content metadata
+            - Data statistics aggregation and visualization
+            - Extensive use of Google Cloud Services (AppEngine, Compute Engine, Datastore), Google Drive API, Dropbox API
+      - layout: left
+        title: UCLA Beam Control Laboratory
+        # link: 
+        # link_text: 
+        sub_title: Graduate Student Researcher
+        caption: 2009 - 2014
+        # quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          - Identified prediction models for aero-optical wavefronts and verified the models by comparing the experimental data with the numerical simulation results.
+          - Developed a new mathematical method for state-space identification of prediction models for dynamical systems using optimal state-space filters and adaptive lattice filters.
+          - Determined the flow characteristics of optical wavefronts by applying spatial and temporal cross-correlation to wavefront images.
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title:  UCLA
+        caption: 2009-2014
+        sub_title: Doctor of Philosophy
+        quote: >
+          University of California, Los Angeles
+          
+        description: | # this will include new lines to allow paragraphs
+          Mechanical Engineering
+          - Field: Systems & Control - Adaptive Optics
+          - Minor: Dynamics
+
+      - layout: left
+        title:  UCLA
+        caption: 2009-2014
+        sub_title: Master of Science
+        quote: >
+          University of California, Los Angeles
+        description: | # this will include new lines to allow paragraphs
+          Mechanical engineering
+
+      - layout: left
+        title: UC BERKELEY
+        caption: 2003-2006
+        sub_title: Bachelor of Science
+        quote: >
+          University of California, Berkeley 
+        description: | # this will include new lines to allow paragraphs
+          Mechanical engineering
+          - Minor: Theater & Performance Studies
+
+          
+
+  - title: Interests
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Computational Social Science 
+      - Behavioral Biology
+      - Human Cognition & Behaviour 
+      - Web Analytics
+      - Natural Language Processing
+      - Social Psychology
+
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
