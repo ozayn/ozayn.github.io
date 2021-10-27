@@ -8,7 +8,11 @@ version: 2
 # Personal info
 name: Azin Faghihi
 title: Data Scientist
+author:
+  address: Washington, DC
 email: azin.faghihi@gmail.com
+phone: (510)684-9399 
+
 website: www.github.com/ozayn
 
 # Dark Mode (true/false/never)
