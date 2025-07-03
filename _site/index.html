@@ -28,39 +28,47 @@
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/assets/main.css" />
     <!-- style -->
-  <style>
-  /* Force light mode across the site */
-  @media (prefers-color-scheme: dark) {
-    html, body {
-      background: white !important;
-      color: black !important;
-    }
+    <style>
+      /* Force light mode across the site */
+      @media (prefers-color-scheme: dark) {
+        html,
+        body {
+          background: white !important;
+          color: black !important;
+        }
 
-    img, video {
-      filter: none !important;
-    }
+        img,
+        video {
+          filter: none !important;
+        }
 
-    a {
-      color: #0366d6 !important;
-    }
+        a {
+          color: #0366d6 !important;
+        }
 
-    /* override buttons, containers, etc. */
-    .container,
-    .header-container,
-    .footer-container,
-    .list-container,
-    .text-container {
-      background-color: white !important;
-      color: black !important;
-    }
+        /* override buttons, containers, etc. */
+        .container,
+        .header-container,
+        .footer-container,
+        .list-container,
+        .text-container {
+          background-color: white !important;
+          color: black !important;
+        }
 
-    nav a,
-    h1, h2, h3, h4, h5, h6,
-    p, li {
-      color: black !important;
-    }
-  }
-</style>
+        nav a,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        p,
+        li {
+          color: black !important;
+        }
+      }
+    </style>
 
     <style>
       nav ul {
@@ -317,12 +325,27 @@
             </div>
             <div class="col-xs-12 col-sm-8 col-md-9 col-print-12 content">
               <p class="quote"></p>
-              <p>
-                <!-- <img
-                  src="/images/project1/03_link_secretary_of_wcon_loglog.png"
-                  alt="networkx on map"
-                /> -->
-              </p>
+
+              <div
+                style="
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 1em;
+                  justify-content: space-between;
+                  align-items: flex-start;
+                "
+              >
+                <img
+                  src="https://raw.githubusercontent.com/ozayn/AIML-projects/main/Stock%20Market%20News%20Sentiment%20Analysis%20%26%20Summarization/images/label_distribution.png"
+                  alt="label distribution"
+                  style="max-width: 40%; height: auto; object-fit: contain"
+                />
+                <img
+                  src="https://raw.githubusercontent.com/ozayn/AIML-projects/main/Stock%20Market%20News%20Sentiment%20Analysis%20%26%20Summarization/images/histplot_boxplot_News%20Length_vs_Label.png"
+                  alt="news length distribution"
+                  style="max-width: 48%; height: auto; object-fit: contain"
+                />
+              </div>
             </div>
           </div>
           <!-- FoodHub -->
