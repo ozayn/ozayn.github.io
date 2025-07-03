@@ -28,6 +28,40 @@
     <link rel="shortcut icon" type="image/x-icon" href="/images/favicon.ico" />
     <link rel="stylesheet" href="/assets/main.css" />
     <!-- style -->
+  <style>
+  /* Force light mode across the site */
+  @media (prefers-color-scheme: dark) {
+    html, body {
+      background: white !important;
+      color: black !important;
+    }
+
+    img, video {
+      filter: none !important;
+    }
+
+    a {
+      color: #0366d6 !important;
+    }
+
+    /* override buttons, containers, etc. */
+    .container,
+    .header-container,
+    .footer-container,
+    .list-container,
+    .text-container {
+      background-color: white !important;
+      color: black !important;
+    }
+
+    nav a,
+    h1, h2, h3, h4, h5, h6,
+    p, li {
+      color: black !important;
+    }
+  }
+</style>
+
     <style>
       nav ul {
         list-style: none;
